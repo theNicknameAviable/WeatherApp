@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.4.4)
+  - CityPicker (0.0.2)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4.3)
+  - CityPicker
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CityPicker
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  CityPicker: 522b97fe6b1a5a3d52a1dece4c90ce211db02312
 
-PODFILE CHECKSUM: 30e4af7844a869e7b31f328f729b0afc8daf3235
+PODFILE CHECKSUM: b80dd5b52fdb58f1f2aa78ab410a5bc727054b43
 
 COCOAPODS: 1.11.2
