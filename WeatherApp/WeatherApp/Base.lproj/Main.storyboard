@@ -19,20 +19,29 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sjz-c8-2c7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-ax-Cir">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-ax-Cir">
                                 <rect key="frame" x="159" y="431" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loR-uM-TDy">
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sjz-c8-2c7" secondAttribute="trailing" id="DsX-b9-N1D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HHf-ax-Cir" secondAttribute="trailing" constant="158" id="GS4-BD-XeU"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K2p-8C-XEc"/>
+                            <constraint firstItem="HHf-ax-Cir" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="P3g-d7-kVg"/>
+                            <constraint firstItem="loR-uM-TDy" firstAttribute="top" secondItem="HHf-ax-Cir" secondAttribute="bottom" constant="181" id="P9B-kK-d5z"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T4z-CU-mUh"/>
+                            <constraint firstItem="loR-uM-TDy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="eXq-YN-kYw"/>
+                            <constraint firstItem="loR-uM-TDy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hOZ-AP-Vqh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sjz-c8-2c7" secondAttribute="bottom" id="lVk-lf-IOC"/>
+                            <constraint firstItem="HHf-ax-Cir" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="387" id="tCN-ep-m5H"/>
+                            <constraint firstItem="loR-uM-TDy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uED-6e-Irv"/>
                         </constraints>
                     </view>
                     <connections>
