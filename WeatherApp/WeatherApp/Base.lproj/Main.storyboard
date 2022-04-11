@@ -19,33 +19,37 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sjz-c8-2c7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHf-ax-Cir">
-                                <rect key="frame" x="159" y="431" width="97" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loR-uM-TDy">
-                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
-                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-fT-PJC">
+                                <rect key="frame" x="174" y="559.5" width="67" height="50.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0b1-Xm-XXp">
+                                <rect key="frame" x="123" y="443" width="168" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="top" secondItem="0b1-Xm-XXp" secondAttribute="bottom" constant="96" id="DXr-JA-41O"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sjz-c8-2c7" secondAttribute="trailing" id="DsX-b9-N1D"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HHf-ax-Cir" secondAttribute="trailing" constant="158" id="GS4-BD-XeU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8U-fT-PJC" secondAttribute="trailing" constant="173" id="Jm5-BF-ELf"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K2p-8C-XEc"/>
-                            <constraint firstItem="HHf-ax-Cir" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="P3g-d7-kVg"/>
-                            <constraint firstItem="loR-uM-TDy" firstAttribute="top" secondItem="HHf-ax-Cir" secondAttribute="bottom" constant="181" id="P9B-kK-d5z"/>
+                            <constraint firstItem="0b1-Xm-XXp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="399" id="LQI-db-Rhy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0b1-Xm-XXp" secondAttribute="trailing" constant="123" id="LXP-2K-X9j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8U-fT-PJC" secondAttribute="bottom" constant="252" id="Luu-zv-dUI"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T4z-CU-mUh"/>
-                            <constraint firstItem="loR-uM-TDy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="eXq-YN-kYw"/>
-                            <constraint firstItem="loR-uM-TDy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hOZ-AP-Vqh"/>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="hag-WB-Nym"/>
+                            <constraint firstItem="0b1-Xm-XXp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="iYj-Hc-eV5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sjz-c8-2c7" secondAttribute="bottom" id="lVk-lf-IOC"/>
-                            <constraint firstItem="HHf-ax-Cir" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="387" id="tCN-ep-m5H"/>
-                            <constraint firstItem="loR-uM-TDy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uED-6e-Irv"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="infoWeather" destination="HHf-ax-Cir" id="msv-va-vS5"/>
+                        <outlet property="buttonConsult" destination="M8U-fT-PJC" id="sDR-Y5-8ws"/>
+                        <outlet property="infoWeather" destination="0b1-Xm-XXp" id="IF1-VC-dYQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
