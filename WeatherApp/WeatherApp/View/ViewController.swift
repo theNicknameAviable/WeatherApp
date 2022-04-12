@@ -29,8 +29,8 @@ extension ViewController {
     func configureView() {
         infoWeather.textColor = .black
         infoWeather.backgroundColor = .yellow
-        buttonConsult.setTitle("Consult", for: <#T##UIControl.State#>)
-        buttonConsult.setTitleColor(.black, for: <#T##UIControl.State#>)
+        buttonConsult.setTitle("Consult", for: .normal)
+        buttonConsult.setTitleColor(.black, for: .normal)
         buttonConsult.backgroundColor = .yellow
         
     }
