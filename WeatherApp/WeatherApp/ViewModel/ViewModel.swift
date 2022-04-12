@@ -9,5 +9,10 @@ import Foundation
 
 class WeatherConsult {
     
+    let completionLabel: ((String) -> Void)?
     
+    func userDidTapButton() {
+        let weatherResult: String = "32º"
+        completionLabel?("\(weatherResult)")
+    }
 }

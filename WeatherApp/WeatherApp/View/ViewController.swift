@@ -28,11 +28,23 @@ extension ViewController {
     
     func configureView() {
         infoWeather.textColor = .black
-        infoWeather.backgroundColor = .yellow
+        infoWeather.backgroundColor = UIColor(red: 0.98, green: 0.82, blue: 0.28, alpha: 1.00)
+        infoWeather.layer.cornerRadius = 10
+        infoWeather.layer.masksToBounds = true
         buttonConsult.setTitle("Consult", for: .normal)
         buttonConsult.setTitleColor(.black, for: .normal)
-        buttonConsult.backgroundColor = .yellow
+        buttonConsult.backgroundColor = UIColor(red: 0.98, green: 0.82, blue: 0.28, alpha: 1.00)
+        buttonConsult.layer.cornerRadius = 10
         
+    }
+}
+
+// MARK: - Configure Button
+
+extension ViewController {
+    
+    @IBAction func buttonAction() {
+        WeatherConsult.userDidTapButton()
     }
 }
 
