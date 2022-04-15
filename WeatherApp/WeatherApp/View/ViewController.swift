@@ -35,6 +35,9 @@ extension ViewController {
         buttonConsult.setTitleColor(.black, for: .normal)
         buttonConsult.backgroundColor = UIColor(red: 0.98, green: 0.82, blue: 0.28, alpha: 1.00)
         buttonConsult.layer.cornerRadius = 10
+        weatherConsultModel.completionLabel = { temp in
+            infoWeather.text = temp
+        }
         
     }
 }
@@ -44,7 +47,7 @@ extension ViewController {
 extension ViewController {
     
     @IBAction func buttonAction() {
-        WeatherConsult.userDidTapButton()
+        weatherConsultModel.userDidTapButton()
     }
 }
 
