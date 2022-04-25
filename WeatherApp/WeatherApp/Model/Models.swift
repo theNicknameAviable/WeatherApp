@@ -8,6 +8,6 @@
 import Foundation
 
 struct WeatherResponse {
-    //let cityName: String?
-    let weather: Float?
+    let weather: String
+    let cityName: String
 }
