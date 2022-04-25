@@ -23,6 +23,9 @@
                                 <rect key="frame" x="174" y="559.5" width="67" height="50.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kg-Wl-kKF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0b1-Xm-XXp">
                                 <rect key="frame" x="123" y="443" width="168" height="20.5"/>

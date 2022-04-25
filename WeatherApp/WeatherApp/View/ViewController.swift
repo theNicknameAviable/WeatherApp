@@ -46,7 +46,7 @@ extension ViewController {
 
 extension ViewController {
     
-    @IBAction func buttonAction() {
+    @IBAction func buttonAction(_ sender: Any) {
         weatherConsultModel.userDidTapButton()
     }
 }
