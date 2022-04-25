@@ -9,7 +9,9 @@ import Foundation
 
 class WeatherConsult {
     
+    var weatherToday: [WeatherResponse] = []
     let networkWorker: Network
+    
     init(networkWoker: Network = Network()){
         self.networkWorker = networkWoker
     }
@@ -17,7 +19,9 @@ class WeatherConsult {
     var completionLabel: ((String) -> Void)?
     
     func userDidTapButton() {
-        let weatherResult: String = "32º"
-        completionLabel?("\(weatherResult)")
+        networkWorker.requests { weatherToday in
+            self.weatherToday = weatherToday
+            self.completionLabel?("")
+        }
     }
 }
