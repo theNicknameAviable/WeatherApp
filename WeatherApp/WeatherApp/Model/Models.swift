@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct WeatherResponse: Decodable {
+struct WeatherResponse: Codable {
     let main: String
     let name: String
+}
+
+struct sunInMadrid: Decodable {
+    let results: [WeatherResponse]
 }

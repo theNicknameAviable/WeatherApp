@@ -19,9 +19,5 @@ class Network {
             completionBlock(weather ?? [])
         }
     }
-    
-    struct sunInMadrid: Decodable {
-        let results: [WeatherResponse]
-    }
-    
+        
 }
