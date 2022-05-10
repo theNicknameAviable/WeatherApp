@@ -19,5 +19,4 @@ class Network {
             completionBlock(weather ?? [])
         }
     }
-        
 }
