@@ -26,7 +26,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-fT-PJC">
-                                <rect key="frame" x="167" y="578" width="80" height="31"/>
+                                <rect key="frame" x="123" y="578" width="168" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="XW9-v6-ROJ"/>
+                                    <constraint firstAttribute="width" constant="168" id="gCY-jj-qz1"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -38,16 +42,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sjz-c8-2c7" secondAttribute="trailing" id="DsX-b9-N1D"/>
-                            <constraint firstItem="M8U-fT-PJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="Isx-qL-yRS"/>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="top" secondItem="0b1-Xm-XXp" secondAttribute="bottom" constant="114.5" id="Hyh-SH-D0w"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K2p-8C-XEc"/>
                             <constraint firstItem="0b1-Xm-XXp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="399" id="LQI-db-Rhy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0b1-Xm-XXp" secondAttribute="trailing" constant="123" id="LXP-2K-X9j"/>
-                            <constraint firstItem="M8U-fT-PJC" firstAttribute="top" secondItem="0b1-Xm-XXp" secondAttribute="bottom" constant="114.5" id="ShM-nZ-B8f"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T4z-CU-mUh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8U-fT-PJC" secondAttribute="trailing" constant="167" id="hnV-NW-Tww"/>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="fhL-eI-HAl"/>
                             <constraint firstItem="0b1-Xm-XXp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="iYj-Hc-eV5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sjz-c8-2c7" secondAttribute="bottom" id="lVk-lf-IOC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8U-fT-PJC" secondAttribute="bottom" constant="253" id="riM-li-nJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8U-fT-PJC" secondAttribute="trailing" constant="123" id="xNP-T5-5IM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8U-fT-PJC" secondAttribute="bottom" constant="225" id="zcu-Fd-MKZ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -57,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="110"/>
+            <point key="canvasLocation" x="131.8840579710145" y="109.82142857142857"/>
         </scene>
     </scenes>
     <resources>

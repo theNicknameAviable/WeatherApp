@@ -34,7 +34,6 @@ extension ViewController {
         weatherConsultModel.completionLabel = { temp in
             self.infoWeather.text = temp
         }
-        
     }
 }
 
