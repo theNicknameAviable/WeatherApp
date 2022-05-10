@@ -19,35 +19,35 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sjz-c8-2c7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-fT-PJC">
-                                <rect key="frame" x="174" y="559.5" width="67" height="50.5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kg-Wl-kKF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0b1-Xm-XXp">
                                 <rect key="frame" x="123" y="443" width="168" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-fT-PJC">
+                                <rect key="frame" x="167" y="578" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kg-Wl-kKF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="M8U-fT-PJC" firstAttribute="top" secondItem="0b1-Xm-XXp" secondAttribute="bottom" constant="96" id="DXr-JA-41O"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sjz-c8-2c7" secondAttribute="trailing" id="DsX-b9-N1D"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8U-fT-PJC" secondAttribute="trailing" constant="173" id="Jm5-BF-ELf"/>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="Isx-qL-yRS"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K2p-8C-XEc"/>
                             <constraint firstItem="0b1-Xm-XXp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="399" id="LQI-db-Rhy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0b1-Xm-XXp" secondAttribute="trailing" constant="123" id="LXP-2K-X9j"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8U-fT-PJC" secondAttribute="bottom" constant="252" id="Luu-zv-dUI"/>
+                            <constraint firstItem="M8U-fT-PJC" firstAttribute="top" secondItem="0b1-Xm-XXp" secondAttribute="bottom" constant="114.5" id="ShM-nZ-B8f"/>
                             <constraint firstItem="sjz-c8-2c7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T4z-CU-mUh"/>
-                            <constraint firstItem="M8U-fT-PJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="hag-WB-Nym"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8U-fT-PJC" secondAttribute="trailing" constant="167" id="hnV-NW-Tww"/>
                             <constraint firstItem="0b1-Xm-XXp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="iYj-Hc-eV5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sjz-c8-2c7" secondAttribute="bottom" id="lVk-lf-IOC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8U-fT-PJC" secondAttribute="bottom" constant="253" id="riM-li-nJF"/>
                         </constraints>
                     </view>
                     <connections>
