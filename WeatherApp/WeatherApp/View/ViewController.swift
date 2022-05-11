@@ -27,7 +27,7 @@ extension ViewController {
     
     func configureView() {
         infoWeather.textColor = .black
-        infoWeather.text = "Vaya Puta Mierda"
+        infoWeather.text = "Weather"
         infoWeather.backgroundColor = UIColor(red: 0.98, green: 0.82, blue: 0.28, alpha: 1.00)
         infoWeather.layer.cornerRadius = 10
         infoWeather.layer.masksToBounds = true

@@ -21,7 +21,7 @@ class WeatherConsult {
     func userDidTapButton() {
         networkWorker.requests { weatherToday in
             self.weatherToday = weatherToday
-            self.completionLabel?("")
+            self.completionLabel?("") //el problema viene de aquí
         }
     }
 }
