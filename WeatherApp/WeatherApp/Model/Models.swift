@@ -11,7 +11,7 @@ struct sunInMadrid: Decodable {
     let results: [WeatherResponse]
 }
 
-// MARK: - Welcome
+// MARK: - WeatherResponse
 struct WeatherResponse: Codable {
     let coord: Coord
     let weather: [Weather]
